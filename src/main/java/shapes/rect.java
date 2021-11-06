@@ -1,9 +1,11 @@
+package shapes;
+
 import java.awt.*;
-public class Rect extends shape{
+public class rect extends shape {
     private int width;
     private int height;
 
-    public Rect(Point initPos,Color col, int win, int hin){ // The constructor
+    public rect(Point initPos,Color col, int win, int hin){ // The constructor
         super(initPos, col); // The constructor
         width=win;
         height=hin;

@@ -1,19 +1,28 @@
+import shapes.Circle;
+import shapes.rect;
+
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import shapes.shape;
+import shapes.square;
+import shapes.Circle;
+import shapes.rect;
+
+
 
 public class Drawing extends Canvas {
     // A private field called f of class Frame. This is also in the AWT.
     private Frame f;
     private Circle circ;
-    private Rect rect;
+    private rect rect;
 
     // The constructor
     public Drawing() {
         Point p=new Point(200,200);
         Color c=new Color(0x992266);
         circ= new Circle(p, c, 50);
-        rect= new Rect(p,c,50,10);
+        rect= new rect(p,c,50,10);
         setupFrame();
         setBackground();
 

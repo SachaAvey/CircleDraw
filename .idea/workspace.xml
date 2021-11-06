@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a56d6c-4e2c-4b27-8660-085e0aab5401" name="Changes" comment="new commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shapes/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Drawing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shapes/Rect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shapes/rect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shapes/shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shapes/square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636235015128</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new commit">
+      <created>1636237871873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636237871874</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
