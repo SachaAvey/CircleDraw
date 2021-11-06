@@ -1,7 +1,6 @@
 package shapes;
-
 import java.awt.*;
-public class rect extends shape {
+public class rect extends shape{
     private int width;
     private int height;
 
@@ -11,7 +10,6 @@ public class rect extends shape {
         height=hin;
     }
     public void draw(Graphics g) { // A method that draws the object in g
-
         g.fillRect(pos.x,pos.y,width,height);
     }
 }

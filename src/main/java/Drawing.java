@@ -1,28 +1,32 @@
-import shapes.Circle;
-import shapes.rect;
-
+import java.util.ArrayList; // import the ArrayList class
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import shapes.shape;
 import shapes.square;
-import shapes.Circle;
+import shapes.circle;
 import shapes.rect;
 
 
 
-public class Drawing extends Canvas {
+public class Drawing extends Canvas{
     // A private field called f of class Frame. This is also in the AWT.
     private Frame f;
-    private Circle circ;
+    private circle circ;
     private rect rect;
+    private square sqr;
+    private ArrayList<shape> shapes;
+
 
     // The constructor
     public Drawing() {
         Point p=new Point(200,200);
         Color c=new Color(0x992266);
-        circ= new Circle(p, c, 50);
+        circ= new circle(p, c, 50);
         rect= new rect(p,c,50,10);
+        shapes= new ArrayList<shape>();
+        shapes.add(new circle(p, c, 30));
+        shapes.add(new rect(p,c,80,10));
         setupFrame();
         setBackground();
 
@@ -47,7 +51,10 @@ public class Drawing extends Canvas {
     }
 
     public void paint(Graphics g){
-        circ.draw(g);
-        rect.draw(g);
+        //circ.shapes.draw(g);
+        //rect.shapes.draw(g);
+        for (int i=0; i<shapes.size(); i++){
+            shapes.get(i).draw(g);
+        }
     }
 }

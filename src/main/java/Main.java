@@ -1,3 +1,8 @@
+import shapes.shape;
+import shapes.circle;
+import shapes.square;
+import shapes.rect;
+
 public class Main {
     public static void main(String[] args){
         Drawing d = new Drawing();
