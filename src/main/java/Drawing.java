@@ -1,6 +1,3 @@
-import shapes.Circle;
-import shapes.Rect;
-
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -17,6 +14,17 @@ public class Drawing extends Canvas {
         Color c=new Color(0x992266);
         circ= new Circle(p, c, 50);
         rect= new Rect(p,c,50,10);
+        setupFrame();
+        setBackground();
+
+    }
+
+    private void setBackground() {
+        setBackground(Color.WHITE); // Sets the Canvas background
+        setSize(400, 400); // Sets the Canvas size to be the same as the frame
+    }
+
+    private void setupFrame() {
         f = new Frame("My window"); // Instantiates the Frame
         f.add(this); // Adds the Canvas to the Frame
         f.setLayout(null); // Stops the frame from trying to layout contents
@@ -27,8 +35,6 @@ public class Drawing extends Canvas {
                 f.dispose();
             }
         });
-        setBackground(Color.WHITE); // Sets the Canvas background
-        setSize(400, 400); // Sets the Canvas size to be the same as the frame
     }
 
     public void paint(Graphics g){
